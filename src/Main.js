@@ -1,5 +1,13 @@
+import React from "react"
+
+
+const Main = () => {
 return (
-    <main>
-        <h1></h1>
+    <main className='Main-section'>
+        <h1>Main section</h1>
+
     </main>
 )
+}
+
+export default Main;

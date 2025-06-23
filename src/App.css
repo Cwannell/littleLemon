@@ -1,4 +1,5 @@
 .App {
+  display: grid;
   text-align: center;
 }
 
@@ -35,4 +36,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+.nav-item{
+  padding: 20px;
+  text-decoration: none;
+
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  
+ 
+}
+.nav-list{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: space-between;
+  align-content: center;
+}
+
+header{
+  display: grid;
+}
+
+.logo{
+  padding-top: 28px;
+}
+main{
+  display: grid;
+  background-color: aquamarine;
+  
 }
