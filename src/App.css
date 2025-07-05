@@ -1,43 +1,15 @@
-.App {
-  display: grid;
-  text-align: center;
+.app{
+  border: 10px solid red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*---responsive styling---*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*---General Stlying---*/
+ul{
+ list-style: none;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 a{
   text-decoration: none;
   color: black;
@@ -46,16 +18,27 @@ a{
 a:hover{
   text-decoration: underline;
 }
+
+
+h1 {
+  font-family: "Markazi Text", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+/*---Navigation Styling---*/
+
 .nav-item{
   padding: 20px;
   text-decoration: none;
+
 
 }
 .navbar{
   display: flex;
   justify-content: center;
-  
- 
 }
 .nav-list{
   display: flex;
@@ -65,6 +48,8 @@ a:hover{
   align-content: center;
 }
 
+/*---Header Styling---*/
+
 header{
   display: grid;
 }
@@ -72,8 +57,32 @@ header{
 .logo{
   padding-top: 28px;
 }
+
+/*---Main Section Styling---*/
+
 main{
   display: grid;
   background-color: aquamarine;
-  
 }
+
+/*---Hero-section---*/
+
+
+
+/*---Footer Styling---*/
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  background-color: antiquewhite;
+  /* min-height: 400px; */
+  max-width: auto;
+
+}
+
+.footer-list{
+  padding: 30px;
+}
+
+

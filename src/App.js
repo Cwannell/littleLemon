@@ -9,12 +9,14 @@ import Main from './Main';
 function App() {
   return (
 
-   <React.Fragment>
+      <div className='app'>
+   <React.Fragment >
     <Header/>
     <Nav />
     <Main />
     <Footer />
    </React.Fragment>
+   </div>
   );
 }
 
