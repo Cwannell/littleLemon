@@ -1,12 +1,15 @@
-.app{
-  border: 10px solid red;
-}
 
 /*---responsive styling---*/
 
 
 /*---General Stlying---*/
-ul{
+
+html, body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ul, li{
  list-style: none;
 
 }
@@ -39,6 +42,16 @@ h1 {
 .navbar{
   display: flex;
   justify-content: center;
+  max-width: 100%;
+
+}
+.bar{
+  display: flex;
+  flex-direction: column;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 5px 0;
 }
 .nav-list{
   display: flex;
@@ -47,6 +60,27 @@ h1 {
   justify-content: space-between;
   align-content: center;
 }
+
+nav ul li {
+  display: inline-block;
+  padding: 1em;
+}
+@media screen and (max-width: 992px) {
+  .nav-item {
+    display: none; 
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .bar {
+    display: none; 
+  }
+}
+
+nav{
+  z-index: 10001;
+}
+
 
 /*---Header Styling---*/
 
@@ -81,8 +115,8 @@ main{
 
 }
 
-.footer-list{
+/* .footer-list{
   padding: 30px;
-}
+} */
 
 
