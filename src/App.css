@@ -6,8 +6,8 @@
 
 html, body{
   width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  
 }
 ul, li{
  list-style: none;
@@ -22,13 +22,53 @@ a:hover{
   text-decoration: underline;
 }
 
+#btn1:hover{
+  color:beige;
+  background-color:#495e57;
+  text-decoration: none;
+}
+button:hover{
+  color:#f4ce14;
+  background-color:black;
+}
+
 
 h1 {
   font-family: "Markazi Text", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: bold;
   font-style: normal;
 }
+
+h2{
+  color:#f4ce14;
+  font-size:40px;
+}
+h3{
+  font-size:25px
+}
+
+.banner p {
+font-size:20px;
+max-width:500px;
+line-height:1;
+margin-bottom:35px;
+}
+
+
+button{
+  background-color:#f4ce14;
+  color:black;
+  padding: 16px 16px;
+  border: none;
+  text-decoration: none;
+  border-radius:15px;
+  font-size:18px;
+  font-weight:bold;
+  cursor:pointer;
+
+}
+
 
 
 /*---Navigation Styling---*/
@@ -43,15 +83,16 @@ h1 {
   display: flex;
   justify-content: center;
   max-width: 100%;
+  padding: 10px 15%;
 
 }
 .bar{
   display: flex;
   flex-direction: column;
   width: 25px;
-  height: 3px;
+  height: 4.2px;
   background-color: black;
-  margin: 5px 0;
+  margin: 4.2px 0;
 }
 .nav-list{
   display: flex;
@@ -81,12 +122,18 @@ nav{
   z-index: 10001;
 }
 
-
 /*---Header Styling---*/
 
 header{
-  display: grid;
+  background: color #495e57;
+  padding:30px 0;
 }
+.header section{
+  color: #edefee;
+  padding: 10px 15%;
+  position: relative;
+}
+
 
 .logo{
   padding-top: 28px;
@@ -96,10 +143,81 @@ header{
 
 main{
   display: grid;
-  background-color: aquamarine;
+  background-color: rgb(140, 162, 155);
 }
 
+/* Specials Styling */
+
+.menu-container{
+  background-color: #495e57;
+  padding:30px 0;
+}
+.menu-header {
+  color: #edefee;
+  padding: 5px 15%;
+  position: relative;
+}
+
+.cards{
+  background: color #29f9b4;
+  padding:30px 0;
+  color: #edefee;
+  padding: 10px 15%;
+  position: relative;
+}
+
+
 /*---Hero-section---*/
+
+fieldSet {
+  color:#f4ce14;
+  font-size: 25px;
+  font-weight:bold;
+  padding:5px 15%;
+  border:none;
+  margin-top:-2%;
+  
+}
+.reservation-title{
+  color:#f4ce14;
+  font-size:40px;
+  font-weight:bold;
+  padding:10px 15%;
+   font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
+
+}
+.confirmed{
+  color:#f4ce14;
+  font-size:40px;
+  font-weight:bold;
+  padding:100px 15%;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
+}
+
+.formField{
+  padding:45px 25px;
+  border:none;
+}
+
+input, label{
+  display:inline-block;
+  margin-right:25px;
+  margin-bottom:25px;
+}
+
+/* ---imgs--- */
+.banner-img{
+  position: absolute;
+  right:15%;
+  top:18%;
+  width:350px;
+}
+
+.banner-img img{
+  width:100%;
+  height:380px;
+  border-radius:20px;
+}
 
 
 
@@ -115,8 +233,8 @@ main{
 
 }
 
-/* .footer-list{
+.footer-list{
   padding: 30px;
-} */
+}
 
 
