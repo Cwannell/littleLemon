@@ -48,9 +48,10 @@ const Main = () => {
 
 
     
-    const navigate = useNavigate();
+   
 
     function submitForm(formData) {
+    const navigate = useNavigate();
     if (submitAPI(formData)) {
         navigate("/Complete")
     } 
