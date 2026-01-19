@@ -50,7 +50,7 @@ const BookingForm = (props) => {
                             </select>
                         </div>
                         <div className="reserveBtn">
-                            <input aria-label="onClick" type="submit" target={"confirm Booking"}></input>
+                            <button id='btn1' aria-label="onClick" type="submit" target={"confirm Booking"}>Submit</button>
                         </div>
                     </fieldset>
                 </form>

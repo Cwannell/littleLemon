@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom";
-// import banner_img from "../components/Images/"
+import Bannerimg from "./Images/bannerimg.jpg"
 
 
 const Header = () => {
@@ -11,13 +11,13 @@ return(
             <h2>Little Lemon</h2>
             <h3>Chicago</h3>
             <p>
-                we are a family owned meditteranean restaurant, focused on traditional recipes served with a modern twist.
+                We are a family owned meditteranean restaurant, focused on traditional recipes served with a modern twist.
             </p>
             <Link to="/bookingPage">
             <button id="btn1"aria-label="On Click">Reserve Table</button></Link>
             </div>
             <div className="banner-img">
-            {/* <img src={bannerImg} alt="family restaurant"/> */}
+            <img src={Bannerimg} alt="family restaurant"/>
         </div>
       </section>
     </header>

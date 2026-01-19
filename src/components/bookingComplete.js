@@ -7,7 +7,7 @@ const BookingComplete = () => {
             <h1 className="confirmed">
                 Reservation has been confirmed!
             </h1>
-            <a href="/"><button id="btn1">Home</button></a>
+            <a href="/"><button className='btn1' id="btn1">Home</button></a>
         </div>
         </div>
     )

@@ -16,8 +16,6 @@ return (
         <img src={Logo} alt='Logo'/>
         </a>
 
-        {/* nav-icon */}
-
         <div className='nav-icon' onClick={toggleMenu}>
             <div className='bar'></div>
             <div className='bar'></div>
@@ -25,7 +23,7 @@ return (
             
         </div>
 
-       <ul className={`nav-list ${menuOpen ? 'visible' : ""}`}>
+       <ul className={`nav-links ${menuOpen ? 'visible' : ""}`}>
             <li className='nav-item'><a href="/">Home</a></li>
             <li className='nav-item'><a href="/">About</a></li>
             <li className='nav-item'><a href="/">Menu</a></li>
